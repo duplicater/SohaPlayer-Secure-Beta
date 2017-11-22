@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SohaPlayer-Secure-Beta_Example' do
+  pod 'SohaPlayer-Secure-Beta', :path => '../'
+
+  target 'SohaPlayer-Secure-Beta_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
